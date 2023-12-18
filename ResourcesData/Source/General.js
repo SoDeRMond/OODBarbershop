@@ -49,33 +49,33 @@ function Map_Switch() {
 }
 
 
-setTimeout(function () {
+setTimeout(function() {
 	document.body.innerHTML = `<div class="overlay"></div>${document.body.innerHTML}`;
 	Container_Overlay = document.querySelector(".overlay");
 }, Delay_Functions);
 
-setTimeout(function () {
+setTimeout(function() {
 	Request_Send("../../ResourcesData/HTML/Blocks/footer.html",
-		function () { HTML_Append(Container_Footer, document.body, "footer"); });
+		function() { HTML_Append(Container_Footer, document.body, "footer"); });
 }, Delay_Functions += 80);
 
-setTimeout(function () {
+setTimeout(function() {
 	Request_Send("../../ResourcesData/HTML/Blocks/OutBounds.html",
-		function () { HTML_Append(Container_OutBounds, Container_Footer, "outbounds"); });
+		function() { HTML_Append(Container_OutBounds, Container_Footer, "outbounds"); });
 }, Delay_Functions += 80);
 
-setTimeout(function () {
+setTimeout(function() {
 	Request_Send("../../ResourcesData/HTML/Popups/login.html",
-		function () { HTML_Append(Container_Login, Container_Overlay, "login"); });
+		function() { HTML_Append(Container_Login, Container_Overlay, "login"); });
 }, Delay_Functions += 80);
 
-setTimeout(function () {
+setTimeout(function() {
 	Request_Send("../../ResourcesData/HTML/Popups/map.html",
-		function () { HTML_Append(Container_Map, Container_Login, "map"); });
+		function() { HTML_Append(Container_Map, Container_Login, "map"); });
 }, Delay_Functions += 80);
 
 
-setTimeout(function () {
+setTimeout(function() {
 	Button_Login = document.querySelector(".header-button-login");
 	Button_LoginClose = document.querySelector(".login-button-close");
 
@@ -85,6 +85,6 @@ setTimeout(function () {
 	Button_Login.addEventListener("click", Login_Switch);
 	Button_LoginClose.addEventListener("click", Login_Switch);
 
-	Buttons_Maps.forEach(function (Button_Map) { Button_Map.addEventListener("click", Map_Switch); });
+	Buttons_Maps.forEach(function(Button_Map) { Button_Map.addEventListener("click", Map_Switch); });
 	Button_MapClose.addEventListener("click", Map_Switch);
 }, Delay_Functions += 80);
