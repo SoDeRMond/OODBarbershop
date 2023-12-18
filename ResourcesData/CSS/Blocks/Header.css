@@ -1,0 +1,52 @@
+.header {
+	background-color: #000000;
+	display: flex;
+	padding: 0rem 280rem;
+}
+
+.header-logo { padding: 28rem 20rem; }
+.header-image {
+	height: 20rem;
+	width: 112rem;
+}
+
+.header-active::after {
+	background-color: #FFFFFF;
+	bottom: -28rem;
+	content: "";
+	display: block;
+	height: 6px;
+	left: -20rem;
+	position: relative;
+	width: calc(100% + 40rem);
+}
+
+.header-link {
+	color: #FFFFFF;
+	font-family: "PT Sans Narrow", sans-serif;
+	font-size: 16rem;
+	font-weight: 700;
+	text-decoration: none;
+	padding: 28rem 20rem;
+}
+
+.header-link:hover,
+.header-link:focus
+{ background-color: #242424; }
+
+.header-button-login {
+	cursor: pointer;
+	display: flex;
+	margin: 0rem 0rem 0rem auto;
+}
+
+.header-icon {
+	height: 14rem;
+	margin: auto 18rem auto 0rem;
+	opacity: 40%;
+	width: 14rem;
+}
+
+.header-button-login:hover .header-icon,
+.header-button-login:focus .header-icon
+{ opacity: 100%; }

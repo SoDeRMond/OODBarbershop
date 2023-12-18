@@ -1,0 +1,144 @@
+.login {
+	display: none;
+	left: 50%;
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 1;
+}
+
+.visible { display: flex; }
+.login-window {
+	background-color: #FFFFFF;
+	margin-right: 12rem;
+	padding: 40rem 80rem 60rem 80rem;
+}
+
+.login-header {
+	font-family: "PT Sans Narrow", sans-serif;
+	font-size: 32rem;
+	margin: 0rem 0rem 28rem 0rem;
+}
+
+.login-paragraph {
+	font-family: "PT Sans Narrow", sans-serif;
+	font-size: 14rem;
+	font-weight: 700;
+	margin: 0rem 0rem 18rem 0rem;
+}
+
+.login-input {
+	background-position-x: 280rem;
+	background-position-y: center;
+	background-repeat: no-repeat;
+	background-size: 24rem;
+	border-color: #000000;
+	border-style: solid;
+	display: block;
+	font-family: "PT Sans Narrow", sans-serif;
+	font-size: 14rem;
+	font-weight: 700;
+	height: 40rem;
+	margin-bottom: 12rem;
+	padding: 0rem 18rem;
+	width: 280rem;
+}
+
+.login-input:last-of-type { margin-bottom: 16rem; }
+.login-input:hover,
+.login-input:focus
+{ border-color: #663E16; }
+
+.login-input-user { background-image: url(../../../ResourcesData/Icons/Login/User.svg); }
+.login-input-password { background-image: url(../../../ResourcesData/Icons/Login/Password.svg); }
+
+.login-additional {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 18rem;
+}
+
+.login-remember {
+	align-items: center;
+	cursor: pointer;
+	display: flex;
+	font-family: "PT Sans Narrow", sans-serif;
+	font-size: 14rem;
+	font-weight: 700;
+}
+
+.login-remember:hover,
+.login-remember:focus
+{ color: #663E16; }
+
+.login-checkbox {
+	margin-right: 12rem;
+	opacity: 0%;
+	width: 24rem;
+}
+
+.login-custom {
+	border-style: solid;
+	border-width: 2rem;
+	height: 20rem;
+	position: absolute;
+	width: 20rem;
+}
+
+.login-checkbox:checked + .login-custom {
+	background-image: url(../../../ResourcesData/Icons/UI/Cross.svg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 15rem;
+}
+
+.login-remember:hover .login-custom,
+.login-remember:focus .login-custom
+{ color: #000000; }
+
+.login-button-forget {
+	cursor: default;
+	font-family: "PT Sans Narrow", sans-serif;
+	font-size: 14rem;
+	font-weight: 700;
+	line-height: 24rem;
+	text-decoration: underline;
+	width: auto;
+}
+
+.login-button-forget:hover,
+.login-button-forget:focus
+{ text-decoration-color: #929292; }
+
+.login-button-sign {
+	background-color: #000000;
+	border: none;
+	color: #FFFFFF;
+	font-family: "PT Sans Narrow", sans-serif;
+	font-size: 14rem;
+	font-weight: 700;
+	height: 40rem;
+	padding: 0rem;
+	width: 100%;
+}
+
+.login-button-sign:hover,
+.login-button-sign:focus
+{ background-color: #663E16; }
+
+.login-button-close {
+	cursor: pointer;
+	height: 24rem;
+	width: 24rem;
+}
+
+.login-button-close:hover .login-icon,
+.login-button-close:focus .login-icon
+{ opacity: 100%; }
+
+.login-icon {
+	filter: invert(100%);
+	height: 24rem;
+	opacity: 40%;
+	width: 24rem;
+}

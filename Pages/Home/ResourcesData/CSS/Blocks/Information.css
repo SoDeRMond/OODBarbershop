@@ -1,0 +1,43 @@
+.information { margin: 60rem 0rem 80rem 0rem; }
+.information-logo {
+	display: flex;
+	height: 168rem;
+	margin: 0rem auto 80rem auto;
+	width: 380rem;
+}
+
+.information-bottom {
+	display: flex;
+	justify-content: center;
+}
+
+.information-advantage {
+	margin-right: 128rem;
+	max-width: 260rem;
+}
+
+.information-advantage:last-of-type { margin-right: 0rem; }
+.information-header {
+	color: #FFFFFF;
+	font-family: "PT Sans Narrow", sans-serif;
+	font-size: 32rem;
+	margin: 0rem 0rem 18rem 0rem;
+	text-align: center;
+}
+
+.information-icon {
+	display: flex;
+	height: 28rem;
+	margin: 0rem auto 32rem auto;
+	width: 28rem;
+}
+
+.information-paragraph {
+	color: #FFFFFF;
+	font-family: "PT Sans Narrow", sans-serif;
+	font-size: 14rem;
+	font-weight: 700;
+	line-height: 24rem;
+	margin: 0rem;
+	text-align: center;
+}

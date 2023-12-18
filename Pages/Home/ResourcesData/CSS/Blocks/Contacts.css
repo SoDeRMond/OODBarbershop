@@ -1,0 +1,106 @@
+.contacts {
+	background-color: #FFFFFF;
+	display: flex;
+	margin: 0rem auto 128rem auto;
+	max-width: 920rem;
+	padding: 60rem 80rem;
+}
+
+.contacts-header {
+	font-family: "PT Sans Narrow", sans-serif;
+	font-size: 32rem;
+}
+
+.contacts-paragraph {
+	font-family: "PT Sans Narrow", sans-serif;
+	font-size: 14rem;
+	font-weight: 700;
+	line-height: 24rem;
+}
+
+.contacts-left { width: 50%; }
+.contacts-left-header { margin: 0rem 0rem 38rem 0rem; }
+.contacts-left-paragraph { margin: 0rem; }
+.contacts-information { margin: 0rem 60rem 38rem 0rem; }
+.contacts-buttons { display: flex; }
+
+.contacts-button {
+	align-items: center;
+	background-color: #000000;
+	color: #FFFFFF;
+	display: flex;
+	font-family: "PT Sans Narrow", sans-serif;
+	font-size: 14rem;
+	font-weight: 700;
+	height: 40rem;
+	justify-content: center;
+	text-decoration: none;
+	width: 140rem;
+}
+
+.contacts-button:hover,
+.contacts-button:focus
+{ background-color: #663E16; }
+
+.contacts-button-map {
+	cursor: pointer;
+	margin-right: 20rem;
+}
+
+.contacts-separator {
+	height: 320rem;
+	margin: auto 0rem;
+	width: 8rem;
+}
+
+.contacts-form { width: 50%; }
+.contacts-form-header { margin: 0rem 0rem 38rem 80rem; }
+.contacts-form-paragraph { margin: 0rem 0rem 26rem 80rem; }
+
+.contacts-container {
+	display: flex;
+	justify-content: space-between;
+	margin: 0rem 0rem 24rem 80rem;
+}
+
+.contacts-form-paragraph-input { margin: 0rem; }
+.contacts-label {
+	display: block;
+	font-family: "PT Sans Narrow", sans-serif;
+	font-size: 14rem;
+	font-weight: 700;
+	line-height: normal;
+	margin: 0rem 0rem 12rem 18rem;
+}
+
+.contacts-input {
+	border-color: #000000;
+	border-style: solid;
+	font-family: "PT Sans Narrow", sans-serif;
+	font-size: 14rem;
+	font-weight: 700;
+	height: 40rem;
+	padding: 0rem 18rem;
+	width: 140rem;
+}
+
+.contacts-input:hover,
+.contacts-input:focus
+{ border-color: #663E16; }
+
+.contacts-button-send {
+	background-color: #000000;
+	border: none;
+	color: #FFFFFF;
+	font-family: "PT Sans Narrow", sans-serif;
+	font-size: 14rem;
+	font-weight: 700;
+	height: 40rem;
+	margin-left: 80rem;
+	padding: 0rem;
+	width: 376rem;
+}
+
+.contacts-button-send:hover,
+.contacts-button-send:focus
+{ background-color: #663E16; }

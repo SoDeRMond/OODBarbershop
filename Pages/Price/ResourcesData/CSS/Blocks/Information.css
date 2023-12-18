@@ -1,0 +1,23 @@
+.information { margin: 0rem 180rem 80rem 180rem; }
+.information-header {
+	font-family: "PT Sans Narrow", sans-serif;
+	font-size: 48rem;
+	margin: 0rem 0rem 60rem 0rem;
+	text-align: center;
+}
+
+.information-header::before,
+.information-header::after {
+	background-color: black;
+	content: "";
+	display: block;
+	height: 1.8rem;
+	position: absolute;
+	width: 220rem;
+}
+
+.information-header::before { transform: translateY(28rem); }
+.information-header::after {
+	right: 180rem;
+	transform: translateY(-28rem);
+}

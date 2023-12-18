@@ -1,0 +1,22 @@
+.status { margin: 60rem 0rem 80rem 180rem; }
+.status-header {
+	font-family: "PT Sans Narrow", sans-serif;
+	font-size: 32rem;
+	margin: 0rem 0rem 32rem 0rem;
+}
+
+.status-bottom { display: flex; }
+.status-paragraph {
+	font-family: "PT Sans Narrow", sans-serif;
+	font-size: 14rem;
+	font-weight: 700;
+	margin: 0rem;
+}
+
+.status-paragraph:last-of-type { color: #ACAAA8; }
+.status-icon {
+	filter: invert(100%);
+	height: 10rem;
+	margin: auto 16rem;
+	width: 10rem;
+}

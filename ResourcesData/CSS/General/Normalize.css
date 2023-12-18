@@ -1,0 +1,136 @@
+::-webkit-file-upload-button {
+	-webkit-appearance: button;
+	font: inherit;
+}
+
+[hidden] { display: none; }
+[type="checkbox"],
+[type="radio"] {
+	box-sizing: border-box;
+	padding: 0px;
+}
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button
+{ height: auto; }
+
+[type="search"] {
+	-webkit-appearance: textfield;
+	appearance: textfield;
+	outline-offset: -2px;
+}
+
+[type="search"]::-webkit-search-decoration
+{ -webkit-appearance: none; }
+
+a { background-color: transparent; }
+abbr[title] {
+	border-bottom: none;
+	text-decoration: underline dotted;
+	text-decoration: underline;
+}
+
+body { margin: 0px; }
+b,
+strong
+{ font-weight: bolder; }
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+	border-style: none;
+	padding: 0px;
+}
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring
+{ outline: 1px dotted ButtonText; }
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+	-webkit-appearance: button;
+	appearance: button;
+}
+
+button,
+input
+{ overflow: visible; }
+
+button,
+input,
+optgroup,
+select,
+textarea {
+	font-family: inherit;
+	font-size: 100%;
+	line-height: 1.15;
+	margin: 0px;
+}
+
+button,
+select
+{ text-transform: none; }
+
+code,
+kbd,
+samp {
+	font-family: monospace, monospace;
+	font-size: 1em;
+}
+
+details { display: block; }
+fieldset { padding: 0.35em 0.75em 0.625em; }
+
+h1 {
+	font-size: 2em;
+	margin: 0.67em 0px;
+}
+
+hr {
+	box-sizing: content-box;
+	height: 0px;
+	overflow: visible;
+}
+
+html {
+	-webkit-text-size-adjust: 100%;
+	line-height: 1.15;
+}
+
+img { border-style: none; }
+legend {
+	box-sizing: border-box;
+	color: inherit;
+	display: table;
+	max-width: 100%;
+	padding: 0px;
+	white-space: normal;
+}
+
+main { display: block; }
+pre {
+	font-family: monospace, monospace;
+	font-size: 1em;
+}
+
+progress { vertical-align: baseline; }
+small { font-size: 80%; }
+sub { bottom: -0.25em; }
+
+sub,
+sup {
+	font-size: 75%;
+	line-height: 0px;
+	position: relative;
+	vertical-align: baseline;
+}
+
+summary { display: list-item; }
+sup { top: -0.5em; }
+template { display: none; }
+textarea { overflow: auto; }

@@ -1,0 +1,36 @@
+.map {
+	display: none;
+	left: 50%;
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 1;
+}
+
+.visible { display: flex; }
+.map-widget {
+	border-color: #FFFFFF;
+	border-style: solid;
+	border-width: 6rem;
+	box-shadow: 0rem 0rem 64rem #000000;
+	height: 560rem;
+	margin-right: 12rem;
+	width: 760rem;
+}
+
+.map-button-close {
+	cursor: pointer;
+	height: 24rem;
+	width: 24rem;
+}
+
+.map-button-close:hover .map-icon,
+.map-button-close:focus .map-icon
+{ opacity: 100%; }
+
+.map-icon {
+	filter: invert(100%);
+	height: 24rem;
+	opacity: 40%;
+	width: 24rem;
+}

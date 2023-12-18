@@ -1,0 +1,18 @@
+html { font-size: calc(100vw / 1440); }
+body::-webkit-scrollbar { display: none; }
+
+.overlay {
+	background-color: #00000080;
+	bottom: 0;
+	display: none;
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index: 1;
+}
+
+:focus {
+	box-shadow: 0rem 0rem 8rem #000000;
+	outline: 1rem solid #FFFFFF;
+}
