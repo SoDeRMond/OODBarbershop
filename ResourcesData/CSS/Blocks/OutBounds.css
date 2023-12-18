@@ -1,0 +1,8 @@
+.outbounds {
+	background-color: #0D1117;
+	padding: 24rem 0rem;
+	text-align: center;
+}
+
+.outbounds-link { margin-right: 8rem; }
+.outbounds-link:last-child { margin-right: 0rem; }
