@@ -107,6 +107,14 @@
 ***
 
 
+## ♦ Note
+
+• The Web Project is Not Displayed Correctly on The Server
+
+
+***
+
+
 ## ♦ Author
 
 • Go to the [Author's Page](https://htmlacademy.ru) to See It
