@@ -52,17 +52,17 @@ setTimeout(function () {
 }, Delay_Functions);
 
 setTimeout(function () {
-	Request_Send("../HTML/Blocks/footer.html",
+	Request_Send("../../ResourcesData/HTML/Blocks/footer.html",
 		function () { HTML_Append(Container_Footer, document.body, "footer"); });
 }, Delay_Functions += 80);
 
 setTimeout(function () {
-	Request_Send("../HTML/Popups/login.html",
+	Request_Send("../../ResourcesData/HTML/Popups/login.html",
 		function () { HTML_Append(Container_Login, Container_Overlay, "login"); });
 }, Delay_Functions += 80);
 
 setTimeout(function () {
-	Request_Send("../HTML/Popups/map.html",
+	Request_Send("../../ResourcesData/HTML/Popups/map.html",
 		function () { HTML_Append(Container_Map, Container_Login, "map"); });
 }, Delay_Functions += 80);
 
