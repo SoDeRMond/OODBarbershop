@@ -1,6 +1,9 @@
 const XMLHttpRequest_Root = new XMLHttpRequest();
 
+
 const Container_Footer = document.createElement("footer");
+const Container_OutBounds = document.createElement("div");
+
 const Container_Login = document.createElement("div");
 const Container_Map = document.createElement("div");
 
@@ -54,6 +57,11 @@ setTimeout(function () {
 setTimeout(function () {
 	Request_Send("../../ResourcesData/HTML/Blocks/footer.html",
 		function () { HTML_Append(Container_Footer, document.body, "footer"); });
+}, Delay_Functions += 80);
+
+setTimeout(function () {
+	Request_Send("../../ResourcesData/HTML/Blocks/OutBounds.html",
+		function () { HTML_Append(Container_OutBounds, Container_Footer, "outbounds"); });
 }, Delay_Functions += 80);
 
 setTimeout(function () {
