@@ -8,13 +8,13 @@ const Container_Login = document.createElement("div");
 const Container_Map = document.createElement("div");
 
 
-var Container_Overlay = null;
+var Container_Overlay = undefined;
 
-var Button_Login = null;
-var Button_LoginClose = null;
+var Button_Login = undefined;
+var Button_LoginClose = undefined;
 
-var Buttons_Maps = null;
-var Button_MapClose = null;
+var Buttons_Maps = undefined;
+var Button_MapClose = undefined;
 
 var Delay_Functions = 0;
 
